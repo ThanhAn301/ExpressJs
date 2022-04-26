@@ -1,0 +1,38 @@
+{
+  "name": "an",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resource/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ThanhAn301/nodeJS.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "anak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThanhAn301/nodeJS/issues"
+  },
+  "homepage": "https://github.com/ThanhAn301/nodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.0",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "prettier": "^2.5.1"
+  }
+}
